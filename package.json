@@ -36,5 +36,5 @@
     "test-cov": "nyc ava test/ && nyc report --reporter=html"
   },
   "type": "index.d.ts",
-  "version": "1.0.0"
+  "version": "1.0.1"
 }

@@ -4,7 +4,7 @@
 [npm-image]: https://img.shields.io/npm/v/think-sequelize-plus.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/think-sequelize-plus
 
-Thinkjs's mongoose plugin.
+Thinkjs's sequelize plugin.
 
 ## Install
 
