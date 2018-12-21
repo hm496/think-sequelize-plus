@@ -1,0 +1,40 @@
+{
+  "bugs": {
+    "url": "https://github.com/hm496/think-sequelize-plus/issue"
+  },
+  "dependencies": {
+    "@types/sequelize": "^4.27.24",
+    "deepmerge": "^3.0.0",
+    "mz-modules": "^2.1.0",
+    "sequelize": "^4.38.0",
+    "debug": "^2.6.1",
+    "think-helper": "^1.0.0",
+    "think-instance": "^1.0.1"
+  },
+  "description": "sequelize for ThinkJS",
+  "devDependencies": {
+    "ava": "^0.18.2",
+    "babel-eslint": "^7.1.1",
+    "coveralls": "^2.12.0",
+    "eslint": "~4.2.0",
+    "eslint-config-think": "~1.0.1",
+    "nyc": "^7.0.0"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "homepage": "https://github.com/hm496/think-sequelize-plus#readme",
+  "main": "index.js",
+  "name": "think-sequelize-plus",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hm496/think-sequelize-plus.git"
+  },
+  "scripts": {
+    "lint": "eslint index.js lib --fix",
+    "test": "npm run test-cov",
+    "test-cov": "nyc ava test/ && nyc report --reporter=html"
+  },
+  "type": "index.d.ts",
+  "version": "1.0.0"
+}
